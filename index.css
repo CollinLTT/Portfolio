@@ -23,6 +23,10 @@
     -ms-user-select: none; /* For Internet Explorer/Edge */
   }
 
+   #github-logo::h1 {
+     color: white;
+   }
+
   #image-title {
     position: absolute;
     opacity: 1.0;
