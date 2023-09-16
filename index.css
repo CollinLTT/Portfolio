@@ -10,18 +10,53 @@
     color: white;
   }
 
-  #github-logo {
+  #h3-github {
+      position: absolute;
+      color: white;
+      top: -100%;
+      left: -7%;
+    }
+
+  #h3-linkedin {
+    position: absolute;
+    color: white;
+    top: -100%;
+    left: -18%;
+  }
+
+  #github-link {
     position: absolute;
     opacity: 1.0;
-    top: 60%;
-    left: 10%;
-    width: 200px;
-    height: auto;
+    top: 85%;
+    left: 7%;
     user-select: none; /* Disable text selection on the logo */
     -webkit-user-select: none; /* For Safari */
     -moz-user-select: none; /* For Firefox */
     -ms-user-select: none; /* For Internet Explorer/Edge */
   }
+
+  #linkedin-link {
+      position: absolute;
+      opacity: 1.0;
+      top: 85%;
+      left: 13%;
+      user-select: none; /* Disable text selection on the logo */
+      -webkit-user-select: none; /* For Safari */
+      -moz-user-select: none; /* For Firefox */
+      -ms-user-select: none; /* For Internet Explorer/Edge */
+    }
+
+  .github-logo {
+    width: 50px;
+    height: auto;
+
+  }
+
+  .linkedin-logo {
+      width: 50px;
+      height: auto;
+
+    }
 
   #image-title {
     position: absolute;
