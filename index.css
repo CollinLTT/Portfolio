@@ -23,7 +23,7 @@
     -ms-user-select: none; /* For Internet Explorer/Edge */
   }
 
-   #github-logo::h1 {
+   #github-logo h1 {
      color: white;
    }
 
