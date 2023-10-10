@@ -58,13 +58,14 @@ const handleOnMove = e => {
   }
 
 /*Moves flack images inside of standard images + lowers opacity by scroll distance*/
+/*
   if(((100 + nextPercentage)/100) <= 0.2){
-    /*Scrolls flipped photos but moves them upwards to -50%*/
+    //Scrolls flipped photos but moves them upwards to -50%
     flack.animate({
       transform: `translate(${nextPercentage}%, -50%)`
     }, { duration: 1200, fill: "forwards" });
 
-    /*Changes the part of the photo you see (same as other)*/
+    //Changes the part of the photo you see (same as other)
     for(const image of flack.getElementsByClassName("image-flip")) {
     image.animate({
       objectPosition: `${100 + nextPercentage}% center`
@@ -73,9 +74,10 @@ const handleOnMove = e => {
   }
   for(const image of flack.getElementsByClassName("image-flip")) {
 
-    /*Changes flack images opacity based on distance scrolled, opacity rate is halved (50)*/
+    //Changes flack images opacity based on distance scrolled, opacity rate is halved (50)
      flack.style.opacity = (100 + nextPercentage)/50;
     }
+    */
 /*--------------------------------------End section----------------------------------------*/
 
   /*Moves title image back to starting position*/
