@@ -28,14 +28,14 @@ p {
 }
 
 #h3-github {
-  position: relative;
+  position: absolute;
   color: white;
   top: -100%;
   left: -7%;
 }
 
 #h3-linkedin {
-  position: relative;
+  position: absolute;
   color: white;
   top: -100%;
   left: -18%;
@@ -96,6 +96,7 @@ p {
   margin: 10px;
   /* Add margin for spacing */
 }
+
 
 #site-title {
   position: absolute;
@@ -164,7 +165,7 @@ p {
 }
 
 #home-text {
-  position: relative;
+  position: absolute;
   opacity: 1.0;
   top: 8%;
   left: 2%;
