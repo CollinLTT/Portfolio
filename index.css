@@ -28,14 +28,14 @@ p {
 }
 
 #h3-github {
-  position: absolute;
+  position: relative;
   color: white;
   top: -100%;
   left: -7%;
 }
 
 #h3-linkedin {
-  position: absolute;
+  position: relative;
   color: white;
   top: -100%;
   left: -18%;
