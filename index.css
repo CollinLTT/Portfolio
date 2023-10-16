@@ -11,6 +11,13 @@ body {
   overflow: hidden;
 }
 
+a {
+  text-decoration: none;
+  /* Remove underline */
+  color: inherit;
+  /* Use the color from the parent element */
+}
+
 p {
   color: white;
   font-size: 24px;
@@ -79,12 +86,60 @@ h1 {
 
 }
 
-#image-title {
+#site-title {
   position: absolute;
   opacity: 1.0;
-  top: -7%;
-  left: 7%;
+  top: -6%;
+  left: 2%;
   transform: translate(0%, 60%);
+  user-select: none;
+  /* -- Prevent image highlighting -- */
+}
+
+#about {
+  position: absolute;
+  opacity: 1.0;
+  top: -4%;
+  right: 26%;
+  transform: translate(0%, 60%);
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  user-select: none;
+  /* -- Prevent image highlighting -- */
+}
+
+#projects {
+  position: absolute;
+  opacity: 1.0;
+  top: -4%;
+  right: 18%;
+  transform: translate(0%, 60%);
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  user-select: none;
+  /* -- Prevent image highlighting -- */
+}
+
+#resume {
+  position: absolute;
+  opacity: 1.0;
+  top: -4%;
+  right: 10%;
+  transform: translate(0%, 60%);
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  user-select: none;
+  /* -- Prevent image highlighting -- */
+}
+
+#contact {
+  position: absolute;
+  opacity: 1.0;
+  top: -4%;
+  right: 2%;
+  transform: translate(0%, 60%);
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   user-select: none;
   /* -- Prevent image highlighting -- */
 }
