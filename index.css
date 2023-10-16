@@ -18,14 +18,13 @@ a {
   /* Use the color from the parent element */
 }
 
+button {
+  all: unset;
+}
+
 p {
   color: white;
   font-size: 24px;
-}
-
-h1 {
-  font-family: 'Geraldine', sans-serif;
-  color: white;
 }
 
 #h3-github {
@@ -103,7 +102,10 @@ h1 {
   opacity: 1.0;
   top: -4%;
   left: 2%;
+  color: white;
+  font-family: 'Geraldine', sans-serif;
   user-select: none;
+  cursor: pointer;
   /* -- Prevent image highlighting -- */
 
   width: 200px;
@@ -155,6 +157,17 @@ h1 {
   opacity: 1.0;
   top: -4%;
   right: 2%;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  user-select: none;
+  /* -- Prevent image highlighting -- */
+}
+
+#home-text {
+  position: absolute;
+  opacity: 1.0;
+  top: 8%;
+  left: 2%;
   color: white;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   user-select: none;

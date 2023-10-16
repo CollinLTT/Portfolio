@@ -81,3 +81,12 @@ window.ontouchend = e => handleOnUp(e.touches[0]);
 window.onmousemove = e => handleOnMove(e);
 
 window.ontouchmove = e => handleOnMove(e.touches[0]);
+
+//----------------------------------------------------------------------------------------------------------
+// Function to create a confetti animation
+function createConfetti() {
+  toggleConfetti();
+}
+
+// Attach the createConfetti function to the button's click event
+document.getElementById('confettiButton').addEventListener('click', createConfetti);
