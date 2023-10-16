@@ -110,7 +110,7 @@ p {
   /* -- Prevent image highlighting -- */
 
   width: 200px;
-  height: 100px;
+  height: 125px;
   background-color: black;
   text-align: center;
   line-height: 100px;
@@ -167,7 +167,7 @@ p {
 #home-text {
   position: absolute;
   opacity: 1.0;
-  top: 8%;
+  top: 10%;
   left: 2%;
   color: white;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
