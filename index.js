@@ -1,6 +1,5 @@
 const track = document.getElementById("image-track");
 const flack = document.getElementById("image-flack");
-//const title = document.getElementById("image-title");
 
 const handleOnDown = e => track.dataset.mouseDownAt = e.clientX;
 
@@ -45,7 +44,8 @@ const handleOnMove = e => {
     }, { duration: 1200, fill: "forwards" });
   }
 
-  /*Moves flack images inside of standard images + lowers opacity by scroll distance*/
+  /*Moves flack images inside of image-track images + lowers opacity by scroll distance*/
+  /*Removed due to clunky look*/
   /*
     if(((100 + nextPercentage)/100) <= 0.2){
       //Scrolls flipped photos but moves them upwards to -50%
