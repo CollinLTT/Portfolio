@@ -24,8 +24,8 @@ button {
 
 p {
     color: white;
-    font-size: 24px;
 }
+
 
 #h3-github {
     position: absolute;
@@ -90,6 +90,7 @@ p {
     height: 100px;
     background-color: black;
     text-align: center;
+    font-size: 24px;
     line-height: 100px;
     border-bottom: 2px solid white;
     /* This adds a 2px solid line beneath each div */
@@ -102,6 +103,7 @@ p {
     height: 98px;
     background-color: black;
     text-align: center;
+    font-size: 24px;
     line-height: 200px;
     border-bottom: 2px solid white;
     border-top: 2px solid white;
@@ -183,7 +185,63 @@ p {
     top: 10%;
     left: 3%;
     color: white;
+    font-size: 21px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     user-select: none;
+    padding: 5px;
+    line-height: 2.0;
+    border-bottom: 2px solid white;
     /* -- Prevent image highlighting -- */
+}
+
+#my-art-text {
+    position: absolute;
+    opacity: 1.0;
+    top: 35%;
+    left: 3%;
+    color: white;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    user-select: none;
+    padding: 15px;
+    line-height: 2.0;
+    border-left: 2px solid cadetblue;
+    /* -- Prevent image highlighting -- */
+}
+
+#my-art {
+    position: relative;
+    opacity: 1.0;
+    top: 50%;
+    left: 3%;
+    color: white;
+
+}
+
+img:hover {
+    transform: scale(1.2);
+    /* Increase the scale to make it bigger */
+    transition: transform 0.3s;
+    /* Add a smooth transition effect */
+}
+
+#enlarge-image {
+    transition: transform 0.3s;
+    /* Add a smooth transition effect */
+}
+
+img {
+    width: 250px;
+    /* Set the desired width */
+    height: auto;
+    border-radius: 10px;
+    /* Adjust the value to control the level of rounding */
+    border: 2px solid rgb(24, 24, 24);
+    /* Maintain the aspect ratio */
+    margin-right: 30px;
+    margin-bottom: 35px;
+}
+
+.scrollable-content {
+    overflow-y: scroll;
 }
