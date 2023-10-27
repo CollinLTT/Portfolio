@@ -228,6 +228,15 @@ img:hover {
 #enlarge-image {
     transition: transform 0.3s;
     /* Add a smooth transition effect */
+    width: 250px;
+    /* Set the desired width */
+    height: auto;
+    border-radius: 10px;
+    /* Adjust the value to control the level of rounding */
+    border: 2px solid rgb(24, 24, 24);
+    /* Maintain the aspect ratio */
+    margin-right: 30px;
+    margin-bottom: 35px;
 }
 
 img {
@@ -240,8 +249,4 @@ img {
     /* Maintain the aspect ratio */
     margin-right: 30px;
     margin-bottom: 35px;
-}
-
-.scrollable-content {
-    overflow-y: scroll;
 }
