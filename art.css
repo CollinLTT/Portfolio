@@ -11,44 +11,6 @@ body {
     overflow-x: hidden;
 }
 
-#home-text {
-    position: absolute;
-    opacity: 1.0;
-    top: 10%;
-    left: 3%;
-    color: white;
-    font-size: 21px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    user-select: none;
-    padding: 5px;
-    line-height: 2.0;
-    border-bottom: 2px solid white;
-    /* -- Prevent image highlighting -- */
-}
-
-#my-art-text {
-    position: absolute;
-    opacity: 1.0;
-    top: 35%;
-    left: 3%;
-    color: white;
-    font-size: 18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    user-select: none;
-    padding: 15px;
-    line-height: 2.0;
-    border-left: 2px solid cadetblue;
-    /* -- Prevent image highlighting -- */
-}
-
-#my-art {
-    position: absolute;
-    opacity: 1.0;
-    top: 50%;
-    left: 3%;
-    color: white;
-
-}
 
 img:hover {
     transform: scale(1.2);
