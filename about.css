@@ -225,7 +225,7 @@ img:hover {
     /* Add a smooth transition effect */
 }
 
-#enlarge-image {
+.enlarge-image {
     transition: transform 0.3s;
     /* Add a smooth transition effect */
 }
