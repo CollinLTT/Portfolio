@@ -240,4 +240,5 @@ img {
     /* Maintain the aspect ratio */
     margin-right: 30px;
     margin-bottom: 35px;
+    user-select: none;
 }
