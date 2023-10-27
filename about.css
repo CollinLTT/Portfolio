@@ -210,7 +210,7 @@ p {
 }
 
 #my-art {
-    position: relative;
+    position: absolute;
     opacity: 1.0;
     top: 50%;
     left: 3%;
