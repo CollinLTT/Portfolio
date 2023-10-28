@@ -78,6 +78,18 @@ p {
     /* Add margin for spacing */
 }
 
+/* Positions the About navigation text*/
+#about {
+    position: absolute;
+    opacity: 1.0;
+    top: -4%;
+    right: 26%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    user-select: none;
+    /* -- Prevent image highlighting -- */
+}
+
 /* Positions the Projects navigation text*/
 #projects {
     position: absolute;
