@@ -194,7 +194,7 @@ p {
 #my-projects {
     position: absolute;
     opacity: 1.0;
-    top: 40%;
+    top: 35%;
     left: 35%;
     color: white;
     display: flex;
@@ -249,13 +249,32 @@ img {
     /* Text color */
     padding: 2px;
     border-bottom: 2px solid rgb(47, 189, 255);
-    transition: top 0.3s;
+    transition: top 0.6s;
 
 }
 
 .image-container:hover .enlarge-text {
-    top: -300px;
-    /* Set the new left position of the text when hovering */
+    top: -100px;
+    transition: top 0.3s;
+    /* Add a transition for smooth movement */
+}
+
+.bottom-text {
+    top: 455px;
+    left: 0px;
+    position: absolute;
+    /* Set the initial left position of the text */
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    /* Text color */
+    padding-left: 10px;
+    border-left: 2px solid rgb(40, 207, 124);
+    transition: top 0.3s;
+}
+
+.image-container:hover .bottom-text {
+    top: 505px;
     transition: top 0.3s;
     /* Add a transition for smooth movement */
 }
