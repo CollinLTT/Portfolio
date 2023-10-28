@@ -254,7 +254,7 @@ img {
 }
 
 .image-container:hover .enlarge-text {
-    top: -100px;
+    top: -300px;
     /* Set the new left position of the text when hovering */
     transition: top 0.3s;
     /* Add a transition for smooth movement */
