@@ -20,70 +20,14 @@ a {
 
 button {
     all: unset;
+    /* Remove styles */
 }
 
 p {
     color: white;
 }
 
-#h3-github {
-    position: absolute;
-    color: white;
-    top: -100%;
-    left: -7%;
-}
-
-#h3-linkedin {
-    position: absolute;
-    color: white;
-    top: -100%;
-    left: -18%;
-}
-
-#github-link {
-    z-index: 999;
-    position: absolute;
-    opacity: 1.0;
-    top: 85%;
-    left: 7%;
-    user-select: none;
-    /* Disable text selection on the logo */
-    -webkit-user-select: none;
-    /* For Safari */
-    -moz-user-select: none;
-    /* For Firefox */
-    -ms-user-select: none;
-    /* For Internet Explorer/Edge */
-}
-
-#linkedin-link {
-    z-index: 999;
-    position: absolute;
-    opacity: 1.0;
-    top: 85%;
-    left: 13%;
-    user-select: none;
-    /* Disable text selection on the logo */
-    -webkit-user-select: none;
-    /* For Safari */
-    -moz-user-select: none;
-    /* For Firefox */
-    -ms-user-select: none;
-    /* For Internet Explorer/Edge */
-}
-
-.github-logo {
-    width: 50px;
-    height: auto;
-
-}
-
-.linkedin-logo {
-    width: 50px;
-    height: auto;
-
-}
-
+/* Creates box around Nav links*/
 .box {
     width: 90px;
     height: 100px;
@@ -97,6 +41,7 @@ p {
     font-size: 24px;
 }
 
+/* Moves the Projects text below the white border*/
 .box-projects {
     width: 90px;
     height: 98px;
@@ -110,7 +55,7 @@ p {
     /* Add margin for spacing */
 }
 
-
+/* Positions website logo and adds styling*/
 #site-title {
     position: absolute;
     opacity: 1.0;
@@ -133,6 +78,7 @@ p {
     /* Add margin for spacing */
 }
 
+/* Positions the About navigation text*/
 #about {
     position: absolute;
     opacity: 1.0;
@@ -144,18 +90,7 @@ p {
     /* -- Prevent image highlighting -- */
 }
 
-#projects {
-    position: absolute;
-    opacity: 1.0;
-    top: -4%;
-    right: 18%;
-    font-size: 24px;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    user-select: none;
-    /* -- Prevent image highlighting -- */
-}
-
+/* Positions the Resume navigation text*/
 #resume {
     position: absolute;
     opacity: 1.0;
@@ -167,6 +102,7 @@ p {
     /* -- Prevent image highlighting -- */
 }
 
+/* Positions the Contact navigation text*/
 #contact {
     position: absolute;
     opacity: 1.0;
@@ -178,6 +114,7 @@ p {
     /* -- Prevent image highlighting -- */
 }
 
+/* Positions the main body text*/
 #home-text {
     position: absolute;
     opacity: 1.0;
@@ -191,6 +128,7 @@ p {
     border-bottom: 2px solid white;
 }
 
+/* Div to hold all projects, expands to the right*/
 #my-projects {
     position: absolute;
     opacity: 1.0;
@@ -206,6 +144,7 @@ p {
 
 }
 
+/* When images are hovered, expands them*/
 img:hover {
     transform: scale(1.2);
     /* Increase the scale to make it bigger */
@@ -213,11 +152,13 @@ img:hover {
     /* Add a smooth transition effect */
 }
 
+/* Gives the images the transition property*/
 .enlarge-image {
     transition: transform 0.3s;
     /* Add a smooth transition effect */
 }
 
+/* Creates image container to know when hovered*/
 .image-container {
     position: relative;
     width: 250px;
@@ -227,6 +168,7 @@ img:hover {
 
 }
 
+/* Sets the image size and styles*/
 img {
     width: 250px;
     /* Set the desired width */
@@ -238,6 +180,7 @@ img {
     user-select: none;
 }
 
+/* When images are hovered, this text moves upwards*/
 .enlarge-text {
     position: absolute;
     top: -55px;
@@ -253,12 +196,14 @@ img {
 
 }
 
+/* Gives the text the transition property*/
 .image-container:hover .enlarge-text {
     top: -100px;
     transition: top 0.3s;
     /* Add a transition for smooth movement */
 }
 
+/* When images are hovered, this text moves downwards*/
 .bottom-text {
     top: 455px;
     left: 0px;
@@ -273,6 +218,7 @@ img {
     transition: top 0.3s;
 }
 
+/* Gives the text the transition property*/
 .image-container:hover .bottom-text {
     top: 505px;
     transition: top 0.3s;
