@@ -236,3 +236,113 @@ p {
   opacity: 0.2;
   border-radius: 20px;
 }
+
+@media (max-width: 1000px) {
+  /* CSS rules for screens up to 768px wide (typical for mobile) */
+
+  p {
+    color: white;
+    font-size: 16px;
+  }
+
+  /* Creates box around Nav links*/
+  .box {
+    width: 70px;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    line-height: 100px;
+    border-bottom: 2px solid white;
+    /* This adds a 2px solid line beneath each div */
+    margin: 10px;
+    /* Add margin for spacing */
+    font-size: 24px;
+  }
+
+  /* Positions website logo and adds styling*/
+  #site-title {
+    position: absolute;
+    opacity: 1.0;
+    top: -4%;
+    left: 2%;
+    color: white;
+    font-family: 'Geraldine', sans-serif;
+    font-size: 30px;
+    user-select: none;
+    cursor: pointer;
+    /* -- Prevent image highlighting -- */
+
+    width: 180px;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    line-height: 150px;
+    border-bottom: 2px solid white;
+    /* This adds a 2px solid line beneath each div */
+    margin: 10px;
+    /* Add margin for spacing */
+  }
+
+  /* Positions the About navigation text*/
+  #about {
+    position: absolute;
+    opacity: 1.0;
+    top: -4%;
+    right: 40%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    user-select: none;
+    /* -- Prevent image highlighting -- */
+  }
+
+  /* Positions the Projects navigation text*/
+  #projects {
+    position: absolute;
+    opacity: 1.0;
+    top: -4%;
+    right: 27%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    user-select: none;
+    /* -- Prevent image highlighting -- */
+  }
+
+  /* Positions the Resume navigation text*/
+  #resume {
+    position: absolute;
+    opacity: 1.0;
+    top: -4%;
+    right: 15%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    user-select: none;
+    /* -- Prevent image highlighting -- */
+  }
+
+  /* Positions the Contact navigation text*/
+  #contact {
+    position: absolute;
+    opacity: 1.0;
+    top: -4%;
+    right: 2%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    user-select: none;
+    /* -- Prevent image highlighting -- */
+  }
+
+  /* Positions the main body text*/
+  #home-text {
+    position: absolute;
+    opacity: 1.0;
+    top: 15%;
+    left: 3%;
+    color: white;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    user-select: none;
+    line-height: 2.0;
+    border-bottom: 2px solid white;
+  }
+
+}
