@@ -1,0 +1,176 @@
+body {
+    margin: 0 4%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    color: black;
+}
+
+#header-container {
+    display: flex;
+}
+
+#name {
+    width: 30%;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+#name::selection {
+    background-color: rgb(30, 156, 114);
+    color: white;
+}
+
+#headerBar {
+    width: 100%;
+    border-bottom: 1px lightgray solid;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+}
+
+h2::selection {
+    background-color: rgb(6, 109, 78);
+    color: white;
+}
+
+#myLinks {
+    position: relative;
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.25s;
+    width: 70%;
+    padding-top: 2rem;
+    justify-content: right;
+
+}
+
+#myLinks #portfolio {
+    border-bottom: 1px #fff solid;
+    transition: border-bottom 0.3s;
+    margin-right: 5%;
+    margin-bottom: 1rem;
+}
+
+#myLinks #portfolio:hover {
+    margin-bottom: 1rem;
+    border-bottom: 1px rgba(0, 0, 0, 0.315) solid;
+}
+
+#myLinks #home {
+    border-bottom: 1px #fff solid;
+    transition: border-bottom 0.3s;
+    margin-right: 5%;
+    margin-bottom: 1rem;
+}
+
+#myLinks #home:hover {
+    margin-bottom: 1rem;
+    border-bottom: 1px rgba(0, 0, 0, 0.315) solid;
+}
+
+
+#myLinks #about {
+    border-bottom: 1px #fff solid;
+    transition: border-bottom 0.3s;
+    margin-right: 5%;
+    margin-bottom: 1rem;
+}
+
+#myLinks #about:hover {
+    margin-bottom: 1rem;
+    border-bottom: 1px rgba(0, 0, 0, 0.315) solid;
+}
+
+#myLinks #contact {
+    border-bottom: 1px #fff solid;
+    transition: border-bottom 0.3s;
+    margin-right: 5%;
+    margin-bottom: 1rem;
+}
+
+#myLinks #contact:hover {
+    margin-bottom: 1rem;
+    border-bottom: 1px rgba(0, 0, 0, 0.315) solid;
+}
+
+#navbars {
+    width: 2%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding-top: 1.5rem;
+}
+
+#bar1,
+#bar2,
+#bar3 {
+    width: 1.6rem;
+    border-bottom: 1px gray solid;
+    padding-top: 0.3rem;
+    transition: transform 0.5s;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+img {
+    box-sizing: border-box;
+    width: 33%;
+    height: auto;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+
+#about-body {
+    display: inline;
+    margin: 0;
+
+}
+
+#about-body p {
+    font-family: Montserrat, Roboto, sans-serif;
+    line-height: 2rem;
+}
+
+#about-body p::selection,
+#about-body br::selection {
+    background-color: rgb(6, 109, 78);
+    color: white;
+}
+
+.author {
+    transition: 1s;
+    position: relative;
+}
+
+.author h2 {
+    visibility: hidden;
+    position: absolute;
+    top: 0rem;
+    opacity: 0;
+    transition: opacity 1.2s;
+}
+
+
+.author:hover {
+    padding-top: 3rem;
+}
+
+.author:hover h2 {
+    visibility: visible;
+    opacity: 1;
+    border-bottom: 1px lightgray solid;
+}
